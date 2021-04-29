@@ -1,8 +1,8 @@
-package gusi.springframework.petclinic.model;
+package model;
 
 import java.time.LocalDate;
 
-public class Pet {
+public class Pet extends BaseEntity{
 
 	private PetType getType;
 	private Owner owner;
