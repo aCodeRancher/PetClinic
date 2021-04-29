@@ -5,11 +5,11 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.4.5</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>gusi.springframework</groupId>
 	<artifactId>PetClinic</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>PetClinic</name>
 	<description>PetClinic project </description>
@@ -39,21 +39,20 @@
 			<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-release-plugin</artifactId>
-					<version>2.5.2</version>
-					
 					<configuration>
-						<goals>install</goals>		
-						<localCheckout>true</localCheckout>
-         <pushChanges>false</pushChanges>									
+						<goals>install</goals>					
+						<checkModificationExcludes>
+        <checkModificationExclude>pom.xml</checkModificationExclude>
+        <checkModificationExclude>**</checkModificationExclude>
+    </checkModificationExcludes>	
 					</configuration>
 			</plugin>
 		</plugins>
 	</build>
 	
 	<scm>
-		<developerConnection>scm:git:git@github.com:ricardogusi/PetClinic.git</developerConnection>
-	  <tag>PetClinic-0.0.1</tag>
-  </scm>
+		<developerConnection>scm:git:https://github.com/ricardogusi/PetClinic.git</developerConnection>
+	</scm>
 
   <modules>
     <module>pet-clinic-data</module>
