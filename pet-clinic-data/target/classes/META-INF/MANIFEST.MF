@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Built-By: Administrador
 Build-Jdk: 15.0.1
 Implementation-Title: pet-clinic-data
-Implementation-Version: 0.0.5-SNAPSHOT
+Implementation-Version: 0.0.6
 Implementation-Vendor-Id: gusi.springframework
 Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
  -starter-parent/PetClinic/pet-clinic-data
