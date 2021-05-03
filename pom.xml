@@ -4,7 +4,7 @@
 
     <groupId>gusi.springframework</groupId>
     <artifactId>PetClinic</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
 
     <modules>
         <module>pet-clinic-data</module>
@@ -105,7 +105,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/aCodeRancher/PetClinic.git</developerConnection>
-      <tag>PetClinic-0.0.1</tag>
+      <tag>HEAD</tag>
   </scm>
 
 </project>
