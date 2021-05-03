@@ -104,7 +104,7 @@
     </build>
 
     <scm>
-        <developerConnection>scm:git:git@github.com:ricardogusi/PetClinic.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:aCodeRancher/PetClinic.git</developerConnection>
       <tag>0.0.7</tag>
   </scm>
 
