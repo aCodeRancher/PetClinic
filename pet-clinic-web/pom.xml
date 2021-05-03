@@ -3,7 +3,7 @@
     <parent>
         <artifactId>PetClinic</artifactId>
         <groupId>gusi.springframework</groupId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.1</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
@@ -15,7 +15,7 @@
         <dependency>
             <artifactId>pet-clinic-data</artifactId>
             <groupId>gusi.springframework</groupId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>0.0.1</version>
         </dependency>
 
         <dependency>
@@ -72,6 +72,6 @@
     
 
   <scm>
-    <tag>0.0.7</tag>
+    <tag>PetClinic-0.0.1</tag>
   </scm>
 </project>
